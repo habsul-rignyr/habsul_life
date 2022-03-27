@@ -34,6 +34,13 @@ const NavBar = () => {
         >
           Contact
         </a>
+
+        <a
+          class="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
+          href="/vidplayer"
+        >
+          Video Player
+        </a>
       </nav>
     </header>
   );

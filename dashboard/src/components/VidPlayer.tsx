@@ -31,8 +31,8 @@ class VidPlayer extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Video Player</h1>
+      <div class="mw5 mw7-ns center bg-light-gray pa3 ph5-ns">
+        <h1 class="lh-copy measure">Video Player</h1>
         <VidMenu chooseVideo={this.chooseVideo} />
         <Video src={this.state.src} />
       </div>
