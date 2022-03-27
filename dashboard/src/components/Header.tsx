@@ -1,11 +1,5 @@
-
-
 const Header = () => {
-    return (
-            <h1 class = "roboto">Hello donkeys</h1>
-
-
-    )
-}
+  return <h1>Hello donkeys</h1>;
+};
 
 export default Header;

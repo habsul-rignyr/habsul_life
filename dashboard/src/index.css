@@ -1,6 +1,6 @@
-@import 'tachyons';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import "tachyons";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 
-.roboto {
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
