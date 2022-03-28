@@ -14,6 +14,7 @@ const About = () => {
         rather than funcitons because it's still important to be aware of this
         slightly older programming paradigm.
       </p>
+      <p class="measure lh-copy">Second,</p>
     </article>
   );
 };
