@@ -14,7 +14,12 @@ const About = () => {
         rather than funcitons because it's still important to be aware of this
         slightly older programming paradigm.
       </p>
-      <p class="measure lh-copy">Second,</p>
+      <p class="measure lh-copy">
+        Second, there is the clock, which can be seen on every page. It is a
+        first attempt at understanding lifecycle methods, using
+        componentDidMount and componentWillUnmount to ensure side effects are
+        cleaned up.
+      </p>
     </article>
   );
 };
