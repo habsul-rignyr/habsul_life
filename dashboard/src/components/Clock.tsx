@@ -13,6 +13,13 @@ class Clock extends Component {
       </div>
     );
   }
+
+  componentDidMount() {
+    const oneSecond = 1000;
+    setInterval(() => {
+      this.setState({ date: new Date() });
+    }, oneSecond);
+  }
 }
 
 export default Clock;
